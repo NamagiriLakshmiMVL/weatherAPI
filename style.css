@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(39, 172, 216);
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+}
+.card-header{
+    background: #F4F27E;
+    text-align: center;
+    color: red;
+    font-size: x-large;
+}
+.card-body{
+    text-align: center;
+    background-image: linear-gradient(#F4F27E,pink);
+    color: rgb(6, 6, 98);
+    font-size: larger;
+}
+
+#title{
+ width: 100%;
+ color: darkred;
+}
+
